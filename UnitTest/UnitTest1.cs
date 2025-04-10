@@ -40,5 +40,19 @@ namespace UnitTest
             Calculator calculator = new Calculator();
             Assert.Null(calculator.Divide(126598246982456, 0));
         }
+
+        [Fact]
+        public void Power()
+        {
+            Calculator calculator = new Calculator();
+            Assert.Equal(100, calculator.Power(10, 2));
+        }
+
+        [Fact]
+        public void SquareRoot()
+        {
+            Calculator calculator = new Calculator();
+            Assert.Equal(10, calculator.SquareRoot(100));
+        }
     }
 }

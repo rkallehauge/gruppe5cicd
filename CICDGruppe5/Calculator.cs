@@ -29,5 +29,17 @@ namespace CICDGruppe5
             if (b == 0) return null;
             return a / b;
         }
+
+        public double Power(double a, double b)
+        {
+            return Math.Pow(a, b);
+        }
+
+        public double SquareRoot(double a)
+        {
+            if (a < 0) return double.NaN;
+            return Math.Sqrt(a);
+        }
+
     }
 }
