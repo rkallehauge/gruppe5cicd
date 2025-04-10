@@ -1,5 +1,7 @@
 ﻿namespace CICDGruppe5
 {
+
+    // Blood rituals *Smørk*
     public interface ICalculator
     {
         int Add(int a, int b);
